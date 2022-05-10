@@ -46,8 +46,8 @@
 SELECT
    t1.K0, avg(t2.c21) 
 FROM
-   tbl2 t2
-LEFT JOIN tbl1 t1 ON
-   t2.K1 = t1.K1
+   tbl2 
+INNER JOIN tbl1  ON
+   tbl1.K1 = tbl2.K1
 WHERE C13 > 400
-GROUP BY t1.K0
+GROUP BY tbl1.K0
