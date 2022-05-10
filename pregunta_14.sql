@@ -44,7 +44,7 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
 SELECT
-   t1.K0, avg(t2.c21) 
+   tbl1.K0, avg(t2.c21) 
 FROM
    tbl2 
 INNER JOIN tbl1  ON
