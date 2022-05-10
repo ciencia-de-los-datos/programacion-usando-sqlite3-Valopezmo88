@@ -38,4 +38,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-select count(*) from tbl1 where  substr(c14,1,4) = '2018'
+select COUNT(*) from tbl1
+group by strftime('%Y',c14)
+having strftime('%Y',c14) = '2018'
