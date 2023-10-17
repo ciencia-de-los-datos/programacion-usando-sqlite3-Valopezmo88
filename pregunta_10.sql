@@ -1,4 +1,4 @@
--- 
+--  
 --  Sea el siguiente conjunto de tablas en una base de datos:
 -- 
 --    tbl0
