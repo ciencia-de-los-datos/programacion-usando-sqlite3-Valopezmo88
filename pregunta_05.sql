@@ -19,7 +19,7 @@
 --    c15 FLOAT
 --    c16 CHAR(4)
 --
---    tbl2
+--    tbl2 
 --    ------------------------
 --    K1  INT,
 --    c21 FLOAT,
@@ -41,3 +41,5 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+select * from tbl0
+where c02 = 100 OR c02 = 600

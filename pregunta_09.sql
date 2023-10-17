@@ -1,4 +1,4 @@
--- 
+--  
 --  Sea el siguiente conjunto de tablas en una base de datos:
 -- 
 --    tbl0
@@ -38,3 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+select * from tbl2 where c21 = (select min(c21) from tbl2)

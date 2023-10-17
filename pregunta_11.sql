@@ -1,4 +1,4 @@
--- 
+--  
 --  Sea el siguiente conjunto de tablas en una base de datos:
 -- 
 --    tbl0
@@ -38,3 +38,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+select COUNT(*) from tbl1
+group by strftime('%Y',c14)
+having strftime('%Y',c14) = '2018'

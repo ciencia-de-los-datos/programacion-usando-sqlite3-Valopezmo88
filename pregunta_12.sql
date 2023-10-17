@@ -1,4 +1,4 @@
--- 
+--  
 --  Sea el siguiente conjunto de tablas en una base de datos:
 -- 
 --    tbl0
@@ -42,3 +42,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+select K0, MAX(c12) , MIN(c12) from tbl1 group by K0

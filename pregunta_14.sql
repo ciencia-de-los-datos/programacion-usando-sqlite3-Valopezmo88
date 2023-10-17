@@ -1,4 +1,4 @@
--- 
+--  
 --  Sea el siguiente conjunto de tablas en una base de datos:
 -- 
 --    tbl0
@@ -43,4 +43,11 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-
+SELECT
+   tbl1.K0, avg(c21) 
+FROM
+   tbl2 
+INNER JOIN tbl1  ON
+   tbl1.K1 = tbl2.K1
+WHERE C13 > 400
+GROUP BY tbl1.K0

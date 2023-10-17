@@ -1,6 +1,6 @@
 -- 
 --  Sea el siguiente conjunto de tablas en una base de datos:
--- 
+--  
 --    tbl0
 --    ------------------------
 --    K0  CHAR(1)
@@ -43,3 +43,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+select * from tbl1 
+where K0 = 'A'
+order by c14
