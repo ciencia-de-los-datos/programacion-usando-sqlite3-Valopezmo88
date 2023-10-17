@@ -1,6 +1,6 @@
 -- 
 --  Sea el siguiente conjunto de tablas en una base de datos:
--- 
+--  
 --    tbl0
 --    ------------------------
 --    K0  CHAR(1)
